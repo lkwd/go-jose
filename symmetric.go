@@ -30,8 +30,8 @@ import (
 	"hash"
 	"io"
 
+	josecipher "github.com/lkwd/go-jose/cipher"
 	"golang.org/x/crypto/pbkdf2"
-	"gopkg.in/square/go-jose.v2/cipher"
 )
 
 // Random reader (stubbed out in tests)

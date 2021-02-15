@@ -25,12 +25,13 @@ import (
 	"encoding/base32"
 	"errors"
 	"fmt"
-	"golang.org/x/crypto/ed25519"
 	"io"
 	"os"
 
+	"golang.org/x/crypto/ed25519"
+
+	"github.com/lkwd/go-jose"
 	"gopkg.in/alecthomas/kingpin.v2"
-	"gopkg.in/square/go-jose.v2"
 )
 
 var (

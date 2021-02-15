@@ -28,9 +28,9 @@ import (
 	"fmt"
 	"math/big"
 
+	josecipher "github.com/lkwd/go-jose/cipher"
+	"github.com/lkwd/go-jose/json"
 	"golang.org/x/crypto/ed25519"
-	"gopkg.in/square/go-jose.v2/cipher"
-	"gopkg.in/square/go-jose.v2/json"
 )
 
 // A generic RSA-based encrypter/verifier
